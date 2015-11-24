@@ -6,6 +6,9 @@ function randomWeapon() {
 var wins = 0
 var losses = 0
 
+document.getElementById("scores").innerHTML = "wins:", wins;
+document.getElementById("scores2").innerHTML = "losses:", losses;
+
 function winCounter() {
    wins = wins + 1
 }
