@@ -1,3 +1,40 @@
 h1 {
   text-align: center;
 }
+
+.gents {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.buttons {
+  position: relative;
+  left: 45%;
+}
