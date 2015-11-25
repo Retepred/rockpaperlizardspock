@@ -1,7 +1,7 @@
 var choices = ["Rock", "Paper", "Sissors", "Lizard", "Spock"];
 function randomWeapon() {
     return choices[Math.floor(Math.random()*choices.length)]
-}
+};
 
 var wins = 0
 var losses = 0
@@ -11,19 +11,19 @@ document.getElementById("scores2").innerHTML = "losses:", losses;
 
 function winCounter() {
    wins = wins + 1
-}
+};
 
 function lossCounter() {
    losses = losses + 1
-}
+};
 
 function finish() {
     alert("Congratulations on beating the game!")
-}
+};
 
 function finishLoss() {
     alert("Commiserations on losing like a silly little sausage!")
-}
+};
 
 function endgame() {
     if (wins == 5) {
